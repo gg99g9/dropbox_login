@@ -4,14 +4,61 @@
     box-sizing: border-box;
 }
 
-#login {
-    line-height: 24px;
-    font-size: 13px;
+body {
     font-family: "Open Sans","lucida grande","Segoe UI",arial,verdana,"lucida sans unicode",tahoma,sans-serif;
+}
+
+nav {
+    height: 48px;
+}
+
+#signUp {
+    padding: 8px;
+    /* line-height: 20px; */
+    font-size: 13px;
+    float: right;
+}
+
+main {
+    max-width: 350px;
+}
+
+#login {
+    font-size: 20px;
+    color: #1e1919;
+    line-height: 24px;
 }
 
 #create {
     font-size: 13px;
     line-height: 17px;
-    font-family: "Open Sans","lucida grande","Segoe UI",arial,verdana,"lucida sans unicode",tahoma,sans-serif;
+}
+
+#label {
+    font-size: 12px;
+    color: #524ade31;
+}
+
+#email {
+    border: 1px solid #958c7e;
+}
+
+#continue {
+    font-size: 16px;
+    color: #F7F5F2;
+    background: #0061fe;
+}
+
+footer {
+    background: #000000;
+    color: #F7F5F2;
+    display: inline
+}
+
+h3 {
+    font-size: 16px;
+}
+
+li {
+    font-size: 14px;
 }
