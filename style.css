@@ -6,6 +6,10 @@
 
 nav {
     border-bottom: 1px solid #958c7e;
+    position: sticky;
+    top: 0;
+    background: white;
+    margin-bottom: 60px;
 }
 
 body {
@@ -14,6 +18,10 @@ body {
 
 img {
     height: 48px;
+}
+
+#branding {
+    position: -webkit-sticky;
 }
 
 #signUp {
