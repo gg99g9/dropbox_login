@@ -1,0 +1,17 @@
+/* style.css*/
+
+* {
+    box-sizing: border-box;
+}
+
+#login {
+    line-height: 24px;
+    font-size: 13px;
+    font-family: "Open Sans","lucida grande","Segoe UI",arial,verdana,"lucida sans unicode",tahoma,sans-serif;
+}
+
+#create {
+    font-size: 13px;
+    line-height: 17px;
+    font-family: "Open Sans","lucida grande","Segoe UI",arial,verdana,"lucida sans unicode",tahoma,sans-serif;
+}
