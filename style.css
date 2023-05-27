@@ -12,6 +12,7 @@ main {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 80px;
     width: 350px;
 }
 
@@ -58,16 +59,23 @@ img {
 }
 
 footer {
-    display: block;
     background: #000000;
     color: #F7F5F2;
+    padding: 46px 0 0;
+}
+
+footer section {
+    display: inline-block;
+    vertical-align: top;
+    width: 224px;
 }
 
 h3 {
-    font-size: 16px;
+    font-size: 20px;
+    margin: 50px 0 30px 30px;
 }
 
-li {
+footer section p {
     font-size: 14px;
-    display: block;
+    margin: 18px 0 0 30px;
 }
