@@ -5,19 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - Dropbox</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <nav>
-        <div id="branding">
+        <span>
             <a href="https://www.dropbox.com/">
-                <img src="./Dropbox_Tab_128.svg" alt="Dropbox Logo">
-                <img src="./Dropbox_Wordmark_128.svg" alt="Dropbox Wordmark">
-            </a>
-        </div>
-        <div id="signUp">
+                <img src="./Dropbox_Tab_128.svg" alt="Dropbox Logo"></a>
+            <a href="https://www.dropbox.com/">
+                <img src="./Dropbox_Wordmark_128.svg" alt="Dropbox Wordmark"></a>
+        </span>
+        <span id="signUp">
             <a href="https://www.dropbox.com/register">Sign up</a>
-        </div>
+        </span>
     </nav>
 
     <main>
@@ -38,9 +39,10 @@
                 <p>or</p>
             </div>
             <form>
-                <label for="email">Email</label>
+                <label for="email" id="label">Email</label>
                 <br>
                 <input type="email" id="email" name="email">
+                <br>
                 <input type="submit" id="continue" value="Continue">
             </form>
         </section>
