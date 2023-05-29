@@ -6,32 +6,36 @@
 
 nav {
     border-bottom: 1px solid #958c7e;
-    position: sticky;
+    position: fixed;
     top: 0;
+    left: 0;
+    width: 100%;
     background: white;
-    margin-bottom: 60px;
 }
+
 
 body {
     font-family: "Open Sans","lucida grande","Segoe UI",arial,verdana,"lucida sans unicode",tahoma,sans-serif;
 }
 
-img {
+#logo {
     height: 48px;
 }
 
-#branding {
-    position: -webkit-sticky;
+#watermark {
+    width: 105px;
+    margin-bottom: 4px;
 }
 
 #signUp {
-    font-size: 16px;
-    padding: 8px;
+    font-size: 17px;
+    padding: 15px;
     float: right;
 }
 
 main {
     display: block;
+    margin-top: 98px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 80px;
@@ -53,21 +57,20 @@ header {
     float: right;
 }
 
-.thirdParty {
-    border: 1px solid #cac5be;
-    width: 350px;
+.loginIcon {
     height: 46px;
-    color: #1e1919;
-    text-align: center;
-    margin-bottom: 25px
+    width: 20px;
+    border: 1px solid red;
 }
 
-.thirdParty img {
-    height: 30px;
-    width: auto;
-    padding: 3px 4px 5px 8px;
-    float: left;
-    border: 1px solid red;
+td {
+    border: 1px solid #cac5be;
+    width: 350px;
+    height: 38px;
+    color: #1e1919;
+    text-align: center;
+    padding: 11px;
+    margin-bottom: 25px
 }
 
 #or {

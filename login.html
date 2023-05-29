@@ -12,9 +12,9 @@
     <nav>
         <span>
             <a href="https://www.dropbox.com/">
-                <img src="./Dropbox_Tab_128.svg" alt="Dropbox Logo"></a>
+                <img id="logo" src="./Dropbox_Tab_128.svg" alt="Dropbox Logo"></a>
             <a href="https://www.dropbox.com/">
-                <img src="./Dropbox_Wordmark_128.svg" alt="Dropbox Wordmark"></a>
+                <img id="watermark" src="./Dropbox_Wordmark_128.svg" alt="Dropbox Wordmark"></a>
         </span>
         <span id="signUp">
             <a href="https://www.dropbox.com/register">Sign up</a>
@@ -29,22 +29,24 @@
             </p>
         </header>
         <section>
-            <div class="thirdParty">
-                <a href="https://accounts.google.com/" target="_blank">
-                <img src="/google.png" alt="Google Logo">
-                <span>
-                    Continue with Google
-                </span> 
-                </a>
-            </div>
-            <div class="thirdParty">
-                <a href="https://appleid.apple.com/sign-in" target="_blank">
-                <img src="/apple.png" alt="Apple Logo">
-                <span>
-                    Continue with Apple
-                </span> 
-                </a>
-            </div>
+            <table>
+                <tr>
+                    <td>
+                        <a href="https://accounts.google.com/" target="_blank">
+                            <img src="/google.png" alt="Google Logo" class="loginIcon">
+                            <span class="loginName">Continue with Google</span>
+                        </a>                                
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://appleid.apple.com/sign-in" target="_blank">
+                            <img src="/apple.png" alt="Apple Logo" class="loginIcon">
+                            <span class="loginName">Continue with Apple</span>
+                        </a>
+                    </td>
+                </tr>
+            </table>
             <div id="or">
                 <p>or</p>
             </div>
